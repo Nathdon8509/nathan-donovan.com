@@ -24,3 +24,17 @@ body {
     color: white;
     text-align: center;
 }
+
+.maincontent {
+background-color:blue;
+color: white;
+margin-left: 60px;
+margin-right: 60px;
+padding: 30px;
+border-radius: 10px;
+
+}
+
+.maincontent p {
+line-height: 1.6;
+}
