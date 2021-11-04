@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My New page</title>
+        
+    </head>
+    <body>
+        <P>HI there</P>
+        <P>><input id="amount"></P>
+        <P>><input id="amount2"></P>
+        <button onclick="calculation()">Calculate</button>
+        <div id="answer">0</div>
+        <hr>
+        <br>
+        <br>
+        
+        
+        <div id="counter"></div>
+        
+        <script>
+            function calculation() {
+                var variable_one = document.getElementById("amount");
+                var variable_two = document.getElementById("amount2");
+                var integer = parseInt(variable_one.value, 10);
+                var integer2 = parseInt(variable_two.value, 10);
+                var answer = integer + integer2;
+                document.getElementById("answer").innerHTML = answer;
+
+            }
+           
+            x=0
+    var avariable = document.getElementById("counter");
+    avariable.innerHTML = x;
+    function button1(){
+        avariable.innerHTML = ++x;
+        if (x > 5){
+        document.getElementById("warning").innerHTML = "Warning there are too many people!";
+        }
+        else{
+            document.getElementById("warning").innerHTML = "";
+        }
+    }
+
+    function button2(){
+        avariable.innerHTML = --x;
+        if (x > 5){
+        document.getElementById("warning").innerHTML = "Warning there are too many people!";
+        }
+        else{
+            document.getElementById("warning").innerHTML = "";
+        }
+    }
+            
+        </script>
+
+<input type=button value="increment" onclick="button1()">
+<input type=button value="decrement" onclick="button2()">
+<div id="counter"></div>
+<div id="warning"></div>
+
+</body>
+</html>
