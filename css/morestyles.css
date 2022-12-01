@@ -25,6 +25,29 @@ body {
     text-align: center;
 }
 
+.navigation {
+	background-color: blue;
+	margin-left: 65px;
+	margin-right: 65px;
+	margin-bottom: 20px;
+	border-radius: 12px;
+	
+}
+
+nav a {
+	color: white;
+	display: inline-block;
+	margin-left: 30px;
+	text-decoration: none;
+	padding: 15px;
+	font-family: 'Courier New', monospace;
+}
+
+nav a:hover {
+	background-color: #3f9bfa;
+	transition: 1s;
+}
+
 .maincontent {
 background-color:blue;
 color: white;
