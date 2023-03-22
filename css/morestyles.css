@@ -3,6 +3,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0px;
+    min-height: 700px;
     }
 .heading {
 	background-color:blue;
@@ -10,7 +11,10 @@ body {
 border-radius: 12px;
 }
 
-
+@font-face {
+	font-family: testfont;
+	src: url("../fonts/testfont.ttf");
+}
 
 
 
