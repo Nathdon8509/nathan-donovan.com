@@ -1,1 +1,1 @@
-document.write("<div class='heading'><div class='customheading'> Welcome to my homepage</div></div ><div class='navigation'><nav><a href='/'>Home</a><a href='html/stuff.html'>Micro-projects</a></nav></div>")
+document.write("<div class='heading'><div class='customheading'> Welcome to my homepage</div></div ><div class='navigation'><nav><a href='/'>Home</a><a href='html/stuff.html'>Micro-projects</a><a href='html/about.html'>About Me</a></nav></div>")

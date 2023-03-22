@@ -4,19 +4,13 @@ body {
     background-size: cover;
     margin: 0px;
     }
-    .heading {
- 
-        background-color:blue;
-        
-        margin: 20px 80px;
-        border-radius: 12px;
-    
-    }
-
-@font-face {
-	font-family: testfont;
-	src: url(../fonts/testfont.ttf);
+.heading {
+	background-color:blue;
+	margin: 20px 80px;
+border-radius: 12px;
 }
+
+
 
 
 
